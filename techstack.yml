@@ -1,0 +1,199 @@
+repo_name: Jelloeater/bubbletea
+report_id: fca328c308a26fbc904b524612b772bd
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-07T17:45:45+00:00'
+requested_by: aymanbagabas
+provider: github
+branch: master
+detected_tools_count: 14
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/Jelloeater/bubbletea
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Jelloeater/bubbletea
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Jelloeater/bubbletea/blob/master/.github/workflows/build.yml
+  detection_source: ".github/workflows/build.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-07 11:59:23.000000000 Z
+- name: bluemonday
+  description: 'Bluemonday: a fast golang HTML sanitizer'
+  package_url: https://pkg.go.dev/github.com/microcosm-cc/bluemonday
+  version: 1.0.25
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jelloeater/bubbletea/blob/master/examples/go.sum
+  detection_source: examples/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-03-27 17:34:04.000000000 Z
+- name: clipboard
+  description: Clipboard for golang
+  package_url: https://pkg.go.dev/github.com/atotto/clipboard
+  version: 0.1.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jelloeater/bubbletea/blob/master/examples/go.sum
+  detection_source: examples/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-23 16:29:25.000000000 Z
+- name: go-colorful
+  description: A library for playing with colors in go
+  package_url: https://pkg.go.dev/github.com/lucasb-eyer/go-colorful
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jelloeater/bubbletea/blob/master/examples/go.sum
+  detection_source: examples/go.mod
+  last_updated_by: Christian Rocha
+  last_updated_on: 2021-03-11 20:03:25.000000000 Z
+- name: go-humanize
+  description: Go Humans!
+  package_url: https://pkg.go.dev/github.com/dustin/go-humanize
+  version: 1.0.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jelloeater/bubbletea/blob/master/examples/go.sum
+  detection_source: examples/go.mod
+  last_updated_by: Carlos Alexandro Becker
+  last_updated_on: 2023-05-05 19:14:26.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.20
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jelloeater/bubbletea/blob/master/examples/go.sum
+  detection_source: examples/go.mod
+  last_updated_by: Carlos Alexandro Becker
+  last_updated_on: 2024-01-09 22:16:42.000000000 Z
+- name: go-runewidth
+  description: Go-runewidth Provides functions to get fixed width of the character
+    or string
+  package_url: https://pkg.go.dev/github.com/mattn/go-runewidth
+  version: 0.0.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jelloeater/bubbletea/blob/master/examples/go.sum
+  detection_source: examples/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-13 12:32:22.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.23.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jelloeater/bubbletea/blob/master/examples/go.sum
+  detection_source: examples/go.mod
+  last_updated_by: Christian Rocha
+  last_updated_on: 2020-01-20 18:35:03.000000000 Z
+- name: regexp2
+  description: A full-featured regex engine in pure Go based on the .NET engine
+  package_url: https://pkg.go.dev/github.com/dlclark/regexp2
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jelloeater/bubbletea/blob/master/examples/go.sum
+  detection_source: examples/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-23 16:29:25.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jelloeater/bubbletea/blob/master/examples/go.sum
+  detection_source: examples/go.mod
+  last_updated_by: Christian Rocha
+  last_updated_on: 2020-01-20 18:35:03.000000000 Z
+- name: tablewriter
+  description: ASCII table in golang
+  package_url: https://pkg.go.dev/github.com/olekukonko/tablewriter
+  version: 0.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jelloeater/bubbletea/blob/master/examples/go.sum
+  detection_source: examples/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-02-23 16:29:25.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.14.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Jelloeater/bubbletea/blob/master/examples/go.sum
+  detection_source: examples/go.mod
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2024-04-22 14:45:33.000000000 Z
